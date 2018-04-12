@@ -1,0 +1,17 @@
+{
+	"name": "dogs",
+	"version": "1.0.0",
+	"description": "dogs chaincode implemented in node.js",
+	"engines": {
+		"node": ">=8.4.0",
+		"npm": ">=5.3.0"
+	},
+	"scripts": {
+		"start": "node dogs.js"
+	},
+	"engine-strict": true,
+	"license": "Apache-2.0",
+	"dependencies": {
+		"fabric-shim": "~1.1.0"
+	}
+}
