@@ -54,8 +54,8 @@ Fabric_Client.newDefaultKeyValueStore({ path: store_path
 	const request = {
 		//targets : --- letting this default to the peers assigned to the channel
 		chaincodeId: 'dogs',
-		fcn: 'queryAllDogs',
-		args: ['']
+		fcn: 'historyForDog',
+		args: ['DOG3']
 	};
 
 	// send the query proposal to the peer
