@@ -29,8 +29,6 @@ fi
 
 echo "Channel name : "$CHANNEL_NAME
 
-rm -rf ./hfc-key-store
-
 # import utils
 . scripts/utils.sh
 
