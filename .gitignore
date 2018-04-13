@@ -1,0 +1,5 @@
+/channel-artifacts/
+/crypto-config/
+/node_modules/
+/hfc-key-store/
+docker-compose-e2e.yaml
