@@ -29,6 +29,8 @@ fi
 
 echo "Channel name : "$CHANNEL_NAME
 
+rm -rf ./hfc-key-store
+
 # import utils
 . scripts/utils.sh
 
@@ -51,6 +53,7 @@ createChannel() {
 	echo "===================== Channel \"$CHANNEL_NAME\" is created successfully ===================== "
 	echo
 }
+
 
 joinChannel () {
 	for org in 1; do

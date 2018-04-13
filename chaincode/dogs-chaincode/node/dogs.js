@@ -159,6 +159,8 @@ let Chaincode = class {
 
   async queryAllDogs(stub, args) {
 
+    return '{dogs: all}';
+
     let startKey = 'DOG0';
     let endKey = 'DOG99';
 
